@@ -1,0 +1,30 @@
+{
+  "name": "chat-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sourav-dut/Chat-app-backend#readme",
+  "bugs": {
+    "url": "https://github.com/sourav-dut/Chat-app-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourav-dut/Chat-app-backend.git"
+  },
+  "license": "ISC",
+  "author": "Sourav Dutta",
+  "type": "module",
+  "main": "server.js     ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
